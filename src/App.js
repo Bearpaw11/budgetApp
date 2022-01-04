@@ -1,8 +1,10 @@
+import ExpenseItem from './components/ExpeseItem';
+
 function App() {
   return (
     <div>
       <h2>Let's get started!</h2>
-      <p>This is also visable</p>
+      <ExpenseItem></ExpenseItem>
     </div>
   );
 }
